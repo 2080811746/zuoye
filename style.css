@@ -1,0 +1,34 @@
+* {
+	margin: 30;
+	padding: 30;
+	list-style: none;
+	text-decoration: none;
+}
+#nav li {
+	float:right;
+}
+#nav {
+	margin-top: 100px;
+	position:inherit;
+}
+#nav a {
+	display: block;
+	padding: 10px 20px;
+	margin: 10px;
+	font-size: 1.2em;
+	color: #666;
+	text-transform: uppercase;
+	font-family: arial;
+	border: 1px solid seagreen;
+	border-radius: 100px;
+}
+#nav a:hover {
+	background-color: black;
+	color: white;
+	border: 1px solid coral;
+}
+	#footer {
+	width:auto;
+	height: 50px;
+	background-color: beige;
+}

@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+#wrap {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 200px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#footer {
+	text-align: center;
+	padding: 1em 0;
+}
+
+#sidebar {
+	width: 270px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#main {
+	width: 800px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#logo {
+	float: left;
+}
+
+.box {
+	background-color: beige;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.box h4 {
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 3px;
+}
+
+#menu a {
+	display: block;
+	margin: 10px 50px;
+	padding: 5px 10px;
+	color: #6 66;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#menu a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav {
+	position: absolute;
+	bottom: 0;
+}
+
+#nav a {
+	display: block;
+	padding: 10px 20px;
+	margin: 10px;
+	font-size: 1.2em;
+	color: #666;
+	text-transform: uppercase;
+	font-family: arial;
+	border: 1px dashed seagreen;
+	border-radius: 100px;
+}
+
+#nav a:hover {
+	background-color: black;
+	color: white;
+	border: 1px solid coral;
+}
+
+#search {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+
+#search input {
+	height: 30px;
+	border: 0;
+}
+
+#search [type="text"] {
+	background-color: beige;
+	border-radius: 50px 0 0 50px;
+	padding-left: 1em;
+}
+
+#search [type="submit"] {
+	background-color: black;
+	border-radius: 0 50px 50px 0;
+	width: 40px;
+	color: white;
+	cursor: hand;
+}
+
+#login {
+	margin: 10px 30px;
+}
+
+#login input {
+	display: block;
+	width: 100%;
+	height: 35px;
+	border: 0;
+	background-color: transparent;
+}
+
+#login [type="text"],
+#login [type="password"] {
+	border-bottom: 1px solid darkgrey;
+}
+
+#login [type="submit"] {
+	margin-top: 10px;
+	border-radius: 50px;
+	cursor: hand;
+	color: whitesmoke;
+	background: black;
+}
+
+.photo {
+	float: left;
+	width: 40%;
+}
+
+.words {
+	float: right;
+	width: 58%;
+	line-height: 30px;
+}
+
+#footer {
+	width: 1080px;
+	height: 50px;
+	background-color: beige;
+}
+
